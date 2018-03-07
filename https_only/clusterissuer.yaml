@@ -1,0 +1,28 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-staging-cluster-issuer
+spec:
+  acme:
+    server: https://acme-staging.api.letsencrypt.org/directory
+    email: neven.miculinic@gmail.com
+    privateKeySecretRef:
+      name: letsencrypt-staging
+    http01: {}
+---
+#apiVersion: certmanager.k8s.io/v1alpha1
+#kind: Certificate
+#metadata:
+#  name: tt-finodev-info
+#  namespace: ingress-test
+#spec:
+#  secretName: tt-finodev-info-tls
+#  issuerRef:
+#    name: letsencrypt-staging-cluster-issuer
+#    kind: ClusterIssuer
+#  commonName: tt.finodev.info
+#  acme:
+#    config:
+#    - http01: {}
+#      domains:
+#      - tt.finodev.info

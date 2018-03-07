@@ -7,6 +7,10 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
+  tls:
+    - hosts:
+      - tt.finodev.info
+      secretName: tt-finodev-info-auto-tls
   rules:
   - host: tt.finodev.info
     http:
