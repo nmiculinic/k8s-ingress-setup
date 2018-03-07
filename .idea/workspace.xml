@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="369c1517-afd5-48c5-a963-3b61e1114f21" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/https_only/default-http-backend.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/https_only/hello-world.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/https_only/ingress.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/https_only/nginx-controller.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/original/default-http-backend.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/original/hello-world.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/original/ingress.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/original/nginx-controller.yaml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/original/README.md" />
-      <change beforePath="$PROJECT_DIR$/default-http-backend-svc.yaml" afterPath="$PROJECT_DIR$/original/default-http-backend-svc.yaml" />
-      <change beforePath="$PROJECT_DIR$/default-http-backend.yaml" afterPath="$PROJECT_DIR$/http_only/default-http-backend.yaml" />
-      <change beforePath="$PROJECT_DIR$/deploy_to_minikube.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hello-world-svc.yaml" afterPath="$PROJECT_DIR$/original/hello-world-svc.yaml" />
-      <change beforePath="$PROJECT_DIR$/hello-world.yaml" afterPath="$PROJECT_DIR$/http_only/hello-world.yaml" />
-      <change beforePath="$PROJECT_DIR$/ingress.yaml" afterPath="$PROJECT_DIR$/http_only/ingress.yaml" />
-      <change beforePath="$PROJECT_DIR$/nginx-controller.yaml" afterPath="$PROJECT_DIR$/http_only/nginx-controller.yaml" />
-      <change beforePath="$PROJECT_DIR$/nginx-ingress-svc.yaml" afterPath="$PROJECT_DIR$/original/nginx-ingress-svc.yaml" />
-    </list>
+    <list default="true" id="369c1517-afd5-48c5-a963-3b61e1114f21" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
